@@ -14,7 +14,7 @@ const Contact = () => {
 
     const onSubmit = async (data) => {
         try {
-            const response = await fetch('http://localhost:5001/messages', {
+            const response = await fetch('http://localhost:5000/api/messages', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
